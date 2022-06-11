@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/config-externalization/spring-client/pom.xml" />
         <option value="$PROJECT_DIR$/config-externalization/spring-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-client2/pom.xml" />
       </list>
     </option>
   </component>

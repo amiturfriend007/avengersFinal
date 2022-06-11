@@ -8,16 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-client" />
         <module name="spring-server" />
+        <module name="spring-client2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-client" target="17" />
+      <module name="spring-client2" target="17" />
       <module name="spring-server" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-client" options="-parameters" />
+      <module name="spring-client2" options="-parameters" />
       <module name="spring-server" options="-parameters" />
     </option>
   </component>

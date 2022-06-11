@@ -13,7 +13,7 @@ spring:
               pattern : config-client/staging
               uri: https://github.com/amiturfriend007/avengersFinal
               search-paths:
-                - config-externalization/environment/configs-location
+                - config-externalization/environment
 
             prod-properies-repo:
               uri: https://github.com/amiturfriend007/avengersFinal
